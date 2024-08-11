@@ -1,5 +1,6 @@
 :root {
   --1st: #1ebfc1;
+  --2nd: #0d1111;
 }
 
 * {
@@ -20,7 +21,7 @@ body {
   width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
-  padding: 38px 100px;
+  padding: 25px 100px;
 }
 
 a {
@@ -61,6 +62,10 @@ a {
 
 .header__action a:first-child {
   margin-right: 48px;
+}
+
+.header__action .sign-in:hover {
+  opacity: 0.8;
 }
 
 .header__action .sign-up {
@@ -244,4 +249,350 @@ a {
 
 .students {
   margin-left: -7px;
+}
+
+/* ===============================Features======================= */
+.features .body {
+  width: 88%;
+  margin-top: 159px;
+}
+
+.features .text {
+  width: 55%;
+  margin-bottom: 80px;
+}
+
+.text .features__subheading {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.text .feature__heading {
+  width: 577px;
+  color: var(--2nd, #2f3a3b);
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+  margin-bottom: 18px;
+}
+
+.text .features__desc {
+  color: #767e7e;
+  font-size: 18px;
+  font-weight: 40;
+}
+
+.features__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features__section .heading {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 26px 0px 16px;
+}
+
+.features__section .desc {
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.67; /* 168.75% */
+}
+
+.features__section .item4 {
+  width: 168px;
+  height: 259px;
+  flex-shrink: 0;
+}
+
+.features__section .item5 {
+  width: 223px;
+  height: 259px;
+  flex-shrink: 0;
+}
+
+.features__section .item6 {
+  width: 224px;
+  height: 259px;
+  flex-shrink: 0;
+}
+
+/* ================================Courses======================== */
+.main__course .body {
+  margin-top: 80px;
+  margin-bottom: 215px;
+}
+
+.main__course .text .subheading {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.main__course .text .heading {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  padding: 19px 0px;
+}
+
+.main__course .text .desc {
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.78; /* 177.778% */
+}
+
+.main__course .text .more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__course .text a {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.course-list {
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-list__item {
+  width: 359px;
+  height: 517px;
+  position: relative;
+}
+
+.course-list__info {
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  bottom: 0;
+  margin: 0px 17px;
+  padding: 18px 25px 29px;
+}
+
+.course-list__info .title {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.course-list__info .price {
+  color: #767e7e;
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+}
+
+.course-list__info .price strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.course-list__info .desc {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+}
+
+.course-list__info .more-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+}
+/* ================================Summary===================== */
+.summary .body {
+  margin: 0 auto;
+  width: 74%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.summary .value {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.summary .value--title {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+}
+/* ================================feedback==================== */
+.feedback .body {
+  margin-top: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feedback__content {
+  width: 36%;
+}
+
+.feedback--comment {
+  margin-top: 27px;
+  margin-bottom: 33px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+}
+
+.feedback--name {
+  color: #767e7e;
+  margin-bottom: 52px;
+}
+
+.feedback--name strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.feedback .control .btn {
+  border: none;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #2ac9bf;
+}
+
+.feedback .control .back {
+  margin-right: 30px;
+}
+
+.feedback .control .btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.info--image {
+  width: 58%;
+  display: flex;
+  position: relative;
+  height: 481px;
+}
+
+.feedback-ava1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 19px;
+}
+
+.feedback-ava2 {
+  position: absolute;
+  top: 0;
+  margin-left: 144px;
+}
+
+.feedback-ava6 {
+  position: absolute;
+  left: 0;
+  margin-top: 258px;
+}
+
+.feedback-ava5 {
+  position: absolute;
+  bottom: 0;
+  margin-left: 212px;
+}
+
+.feedback-ava4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 32px;
+  margin-bottom: 29px;
+}
+
+.feedback-ava3 {
+  position: absolute;
+  margin: 107px 171px 139px 273px;
+}
+
+.get-admit {
+  margin-top: 80px;
+  background: #def6f5;
+}
+
+.get-admit .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 76px 0px 88px;
+}
+
+.get-admit .heading {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.get-admit .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+
+.get-admit .get-started {
+  margin-right: 154px;
+}
+
+/* ===========================footer============================= */
+.footer .row {
+  margin-top: 81px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+
+.footer .list {
+  color: #535353;
+  font-size: 1.6rem;
+}
+
+.footer .list a {
+  display: inline-block;
+  margin-bottom: 19px;
+}
+
+.footer .copyright {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  text-align: center;
 }
